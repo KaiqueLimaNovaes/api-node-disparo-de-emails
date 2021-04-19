@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon -r dotenv/config src/index.js"
   },
   "author": "",
   "license": "ISC",
@@ -16,5 +16,8 @@
     "mysql2": "^2.2.5",
     "nodemailer": "^6.5.0",
     "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
   }
 }
